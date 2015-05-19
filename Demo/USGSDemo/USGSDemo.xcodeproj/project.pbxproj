@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D42F9381B0B0D1A00490BC6 /* UIColor+Flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42F9371B0B0D1A00490BC6 /* UIColor+Flat.m */; };
+		6D42F93C1B0B14D400490BC6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42F93B1B0B14D400490BC6 /* MapViewController.m */; };
+		6D42F93F1B0B1BC600490BC6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D42F93E1B0B1BC600490BC6 /* Reachability.m */; };
+		6DCACD6E1B0AECCF005DC078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD6D1B0AECCF005DC078 /* main.m */; };
+		6DCACD711B0AECCF005DC078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD701B0AECCF005DC078 /* AppDelegate.m */; };
+		6DCACD741B0AECCF005DC078 /* USGSDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD721B0AECCF005DC078 /* USGSDemo.xcdatamodeld */; };
+		6DCACD7A1B0AECCF005DC078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCACD781B0AECCF005DC078 /* Main.storyboard */; };
+		6DCACD7C1B0AECCF005DC078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCACD7B1B0AECCF005DC078 /* Images.xcassets */; };
+		6DCACD7F1B0AECCF005DC078 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DCACD7D1B0AECCF005DC078 /* LaunchScreen.xib */; };
+		6DCACD8B1B0AECCF005DC078 /* USGSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD8A1B0AECCF005DC078 /* USGSDemoTests.m */; };
+		6DCACD961B0AED2B005DC078 /* USGSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD951B0AED2B005DC078 /* USGSClient.m */; };
+		6DCACD9B1B0AF194005DC078 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD9A1B0AF194005DC078 /* MainTableViewController.m */; };
+		6DCACD9E1B0AF8E2005DC078 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACD9D1B0AF8E2005DC078 /* DetailViewController.m */; };
+		6DCACDA11B0AFA6F005DC078 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCACDA01B0AFA6F005DC078 /* MapKit.framework */; };
+		6DCACDA41B0AFF7C005DC078 /* EarthquakeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCACDA31B0AFF7C005DC078 /* EarthquakeAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DCACD851B0AECCF005DC078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DCACD601B0AECCF005DC078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCACD671B0AECCF005DC078;
+			remoteInfo = USGSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D42F9361B0B0D1A00490BC6 /* UIColor+Flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Flat.h"; sourceTree = "<group>"; };
+		6D42F9371B0B0D1A00490BC6 /* UIColor+Flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Flat.m"; sourceTree = "<group>"; };
+		6D42F93A1B0B14D400490BC6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = MapViewController/MapViewController.h; sourceTree = "<group>"; };
+		6D42F93B1B0B14D400490BC6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = MapViewController/MapViewController.m; sourceTree = "<group>"; };
+		6D42F93D1B0B1BC600490BC6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6D42F93E1B0B1BC600490BC6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6DCACD681B0AECCF005DC078 /* USGSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USGSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCACD6C1B0AECCF005DC078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DCACD6D1B0AECCF005DC078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DCACD6F1B0AECCF005DC078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DCACD701B0AECCF005DC078 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DCACD731B0AECCF005DC078 /* USGSDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = USGSDemo.xcdatamodel; sourceTree = "<group>"; };
+		6DCACD791B0AECCF005DC078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DCACD7B1B0AECCF005DC078 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DCACD7E1B0AECCF005DC078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DCACD841B0AECCF005DC078 /* USGSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USGSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCACD891B0AECCF005DC078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DCACD8A1B0AECCF005DC078 /* USGSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USGSDemoTests.m; sourceTree = "<group>"; };
+		6DCACD941B0AED2B005DC078 /* USGSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGSClient.h; sourceTree = "<group>"; };
+		6DCACD951B0AED2B005DC078 /* USGSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGSClient.m; sourceTree = "<group>"; };
+		6DCACD991B0AF194005DC078 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = MainTableView/MainTableViewController.h; sourceTree = "<group>"; };
+		6DCACD9A1B0AF194005DC078 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = MainTableView/MainTableViewController.m; sourceTree = "<group>"; };
+		6DCACD9C1B0AF8E2005DC078 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = DetailView/DetailViewController.h; sourceTree = "<group>"; };
+		6DCACD9D1B0AF8E2005DC078 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = DetailView/DetailViewController.m; sourceTree = "<group>"; };
+		6DCACDA01B0AFA6F005DC078 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6DCACDA21B0AFF7C005DC078 /* EarthquakeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakeAnnotation.h; sourceTree = "<group>"; };
+		6DCACDA31B0AFF7C005DC078 /* EarthquakeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakeAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DCACD651B0AECCF005DC078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCACDA11B0AFA6F005DC078 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCACD811B0AECCF005DC078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D42F9391B0B14B700490BC6 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				6D42F93A1B0B14D400490BC6 /* MapViewController.h */,
+				6D42F93B1B0B14D400490BC6 /* MapViewController.m */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		6DCACD5F1B0AECCF005DC078 = {
+			isa = PBXGroup;
+			children = (
+				6DCACDA01B0AFA6F005DC078 /* MapKit.framework */,
+				6DCACD6A1B0AECCF005DC078 /* USGSDemo */,
+				6DCACD871B0AECCF005DC078 /* USGSDemoTests */,
+				6DCACD691B0AECCF005DC078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DCACD691B0AECCF005DC078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACD681B0AECCF005DC078 /* USGSDemo.app */,
+				6DCACD841B0AECCF005DC078 /* USGSDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DCACD6A1B0AECCF005DC078 /* USGSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D42F9391B0B14B700490BC6 /* MapView */,
+				6DCACD9F1B0AF90C005DC078 /* DetailView */,
+				6DCACD981B0AF16D005DC078 /* MainTableView */,
+				6DCACD971B0AED30005DC078 /* Helpers */,
+				6DCACD6F1B0AECCF005DC078 /* AppDelegate.h */,
+				6DCACD701B0AECCF005DC078 /* AppDelegate.m */,
+				6DCACD781B0AECCF005DC078 /* Main.storyboard */,
+				6DCACD7B1B0AECCF005DC078 /* Images.xcassets */,
+				6DCACD7D1B0AECCF005DC078 /* LaunchScreen.xib */,
+				6DCACD721B0AECCF005DC078 /* USGSDemo.xcdatamodeld */,
+				6DCACD6B1B0AECCF005DC078 /* Supporting Files */,
+			);
+			path = USGSDemo;
+			sourceTree = "<group>";
+		};
+		6DCACD6B1B0AECCF005DC078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACD6C1B0AECCF005DC078 /* Info.plist */,
+				6DCACD6D1B0AECCF005DC078 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DCACD871B0AECCF005DC078 /* USGSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACD8A1B0AECCF005DC078 /* USGSDemoTests.m */,
+				6DCACD881B0AECCF005DC078 /* Supporting Files */,
+			);
+			path = USGSDemoTests;
+			sourceTree = "<group>";
+		};
+		6DCACD881B0AECCF005DC078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACD891B0AECCF005DC078 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DCACD971B0AED30005DC078 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D42F9361B0B0D1A00490BC6 /* UIColor+Flat.h */,
+				6D42F9371B0B0D1A00490BC6 /* UIColor+Flat.m */,
+				6DCACD941B0AED2B005DC078 /* USGSClient.h */,
+				6DCACD951B0AED2B005DC078 /* USGSClient.m */,
+				6DCACDA21B0AFF7C005DC078 /* EarthquakeAnnotation.h */,
+				6DCACDA31B0AFF7C005DC078 /* EarthquakeAnnotation.m */,
+				6D42F93D1B0B1BC600490BC6 /* Reachability.h */,
+				6D42F93E1B0B1BC600490BC6 /* Reachability.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6DCACD981B0AF16D005DC078 /* MainTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACD991B0AF194005DC078 /* MainTableViewController.h */,
+				6DCACD9A1B0AF194005DC078 /* MainTableViewController.m */,
+			);
+			name = MainTableView;
+			sourceTree = "<group>";
+		};
+		6DCACD9F1B0AF90C005DC078 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACD9C1B0AF8E2005DC078 /* DetailViewController.h */,
+				6DCACD9D1B0AF8E2005DC078 /* DetailViewController.m */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DCACD671B0AECCF005DC078 /* USGSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCACD8E1B0AECCF005DC078 /* Build configuration list for PBXNativeTarget "USGSDemo" */;
+			buildPhases = (
+				6DCACD641B0AECCF005DC078 /* Sources */,
+				6DCACD651B0AECCF005DC078 /* Frameworks */,
+				6DCACD661B0AECCF005DC078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USGSDemo;
+			productName = USGSDemo;
+			productReference = 6DCACD681B0AECCF005DC078 /* USGSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DCACD831B0AECCF005DC078 /* USGSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCACD911B0AECCF005DC078 /* Build configuration list for PBXNativeTarget "USGSDemoTests" */;
+			buildPhases = (
+				6DCACD801B0AECCF005DC078 /* Sources */,
+				6DCACD811B0AECCF005DC078 /* Frameworks */,
+				6DCACD821B0AECCF005DC078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DCACD861B0AECCF005DC078 /* PBXTargetDependency */,
+			);
+			name = USGSDemoTests;
+			productName = USGSDemoTests;
+			productReference = 6DCACD841B0AECCF005DC078 /* USGSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DCACD601B0AECCF005DC078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gustavo Barrientos";
+				TargetAttributes = {
+					6DCACD671B0AECCF005DC078 = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6DCACD831B0AECCF005DC078 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 6DCACD671B0AECCF005DC078;
+					};
+				};
+			};
+			buildConfigurationList = 6DCACD631B0AECCF005DC078 /* Build configuration list for PBXProject "USGSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DCACD5F1B0AECCF005DC078;
+			productRefGroup = 6DCACD691B0AECCF005DC078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DCACD671B0AECCF005DC078 /* USGSDemo */,
+				6DCACD831B0AECCF005DC078 /* USGSDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DCACD661B0AECCF005DC078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCACD7A1B0AECCF005DC078 /* Main.storyboard in Resources */,
+				6DCACD7F1B0AECCF005DC078 /* LaunchScreen.xib in Resources */,
+				6DCACD7C1B0AECCF005DC078 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCACD821B0AECCF005DC078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DCACD641B0AECCF005DC078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D42F9381B0B0D1A00490BC6 /* UIColor+Flat.m in Sources */,
+				6DCACD711B0AECCF005DC078 /* AppDelegate.m in Sources */,
+				6DCACD6E1B0AECCF005DC078 /* main.m in Sources */,
+				6D42F93C1B0B14D400490BC6 /* MapViewController.m in Sources */,
+				6D42F93F1B0B1BC600490BC6 /* Reachability.m in Sources */,
+				6DCACD961B0AED2B005DC078 /* USGSClient.m in Sources */,
+				6DCACD9B1B0AF194005DC078 /* MainTableViewController.m in Sources */,
+				6DCACDA41B0AFF7C005DC078 /* EarthquakeAnnotation.m in Sources */,
+				6DCACD741B0AECCF005DC078 /* USGSDemo.xcdatamodeld in Sources */,
+				6DCACD9E1B0AF8E2005DC078 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCACD801B0AECCF005DC078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCACD8B1B0AECCF005DC078 /* USGSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DCACD861B0AECCF005DC078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DCACD671B0AECCF005DC078 /* USGSDemo */;
+			targetProxy = 6DCACD851B0AECCF005DC078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DCACD781B0AECCF005DC078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DCACD791B0AECCF005DC078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DCACD7D1B0AECCF005DC078 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DCACD7E1B0AECCF005DC078 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DCACD8C1B0AECCF005DC078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DCACD8D1B0AECCF005DC078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DCACD8F1B0AECCF005DC078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = USGSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DCACD901B0AECCF005DC078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = USGSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DCACD921B0AECCF005DC078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = USGSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USGSDemo.app/USGSDemo";
+			};
+			name = Debug;
+		};
+		6DCACD931B0AECCF005DC078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = USGSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USGSDemo.app/USGSDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DCACD631B0AECCF005DC078 /* Build configuration list for PBXProject "USGSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCACD8C1B0AECCF005DC078 /* Debug */,
+				6DCACD8D1B0AECCF005DC078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCACD8E1B0AECCF005DC078 /* Build configuration list for PBXNativeTarget "USGSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCACD8F1B0AECCF005DC078 /* Debug */,
+				6DCACD901B0AECCF005DC078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCACD911B0AECCF005DC078 /* Build configuration list for PBXNativeTarget "USGSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCACD921B0AECCF005DC078 /* Debug */,
+				6DCACD931B0AECCF005DC078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DCACD721B0AECCF005DC078 /* USGSDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DCACD731B0AECCF005DC078 /* USGSDemo.xcdatamodel */,
+			);
+			currentVersion = 6DCACD731B0AECCF005DC078 /* USGSDemo.xcdatamodel */;
+			path = USGSDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DCACD601B0AECCF005DC078 /* Project object */;
+}
